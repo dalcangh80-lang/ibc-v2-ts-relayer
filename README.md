@@ -85,7 +85,6 @@ The payload struct is constructed as follows:
 ```
 
 Finally we build the message like so:
-
 ```
       const msg = MsgSendPacket.fromPartial({
         sourceClient: <sourceClientId>, //e.g. "07-tendermint-1"
